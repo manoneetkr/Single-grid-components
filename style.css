@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    font-family: "Karla", sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100lvh;
+  background-color: hsl(204, 43%, 93%);
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  justify-content: center;
+  width: 700px;
+  height: auto;
+  /*border: 1px solid #8b8b8b; /* Optional: Adds a border to visualize the box */
+  box-shadow: 0px 4px 8px hsl(0, 0%, 24%)hsla(0, 0%, 30%, 0.1); /* Optional: Adds a shadow for better visibility */
+  flex-direction: column;
+  border-radius: 10px;
+}
+.container-top {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.first-heading {
+    background-color: white;
+    font-size: 28px;
+  color: #4db4b1;
+  text-align: justify;
+  margin: 20px 40px 10px 40px;
+}
+
+.second-heading {
+    background-color: white;
+    color: hsl(71, 73%, 54%);
+    font-weight: 400px;
+    margin: 10px 0px 0px 40px;
+    gap: 1px;
+}
+
+.first-para {
+    background-color: white;
+    font-family: "Karla", sans-serif;
+    margin-left: 40px;
+    font-size: 16px;
+    color: hsl(218, 22%, 67%);
+    
+}
+
+.container-bottom {
+  width: 100%;
+  height: 100%; /* Ensures each div takes up 50% of the width */
+  display: flex;
+  border: #000;
+  border-radius: 5px;
+}
+
+.container-right {
+  width: 50%;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  background-color: hsl(178, 41%, 50%);
+  border-radius: 0px 0px 0px 10px;
+}
+
+.price-subscription {
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 700px;
+    background-color: hsl(178, 41%, 50%);
+}
+
+.dollar {
+    margin: 15px 0px 0px 40px;
+    font-weight: 700px;
+    background-color: hsl(178, 41%, 50%);
+
+}
+.charge {
+    font-size: 16px;
+    align-items: center;
+    font-weight: 400px;
+    background-color: hsl(178, 41%, 50%);
+
+    
+}
+
+.right-class {
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background-color: hsl(178, 41%, 50%);
+
+}
+
+.right-class-para {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: hsl(178, 41%, 50%);
+
+
+}
+
+.price-button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  font-size: 16px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 40px 30px 50px 40px;
+  box-shadow: 2px 2px 0px rgba(182, 182, 182, 0.38);
+  border: #4db4b1;
+}
+
+.container-left {
+  width: 50%;
+  height: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(179, 46%, 53%);
+  font-size: 16px;
+  border-radius: 0px 0px 10px 0px;
+
+}
+
+.left-class {
+    margin: 30px 0px 20px 40px;
+    background-color: hsl(179, 46%, 53%);
+    ;
+}
+
+ul{
+    margin: 2px;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: hsl(179, 46%, 53%);;
+}
+
+.ul-list {
+    margin: 0px 0px 40px 0;
+    background-color: hsl(179, 46%, 53%);;
+
+}
+
+.footer {
+    background-color: hsl(204, 43%, 93%);
+    width: 500px;
+    min-height:0;
+
+}
